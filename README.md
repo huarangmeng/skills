@@ -6,6 +6,26 @@ If you want to keep up with changes to these skills, and any new ones I create, 
 
 [Sign Up To The Newsletter](https://www.aihero.dev/s/skills-newsletter)
 
+## Local-First Skills (Fork-Safe)
+
+If you don't develop on GitHub often (or you want to keep your fork easy to sync), use the local-first variants below.
+
+These skills write artifacts to the repo's `docs/` directory:
+
+- `docs/prd/` — PRDs
+- `docs/issues/` — issue/work items
+- `docs/refactors/` — refactor plans
+- `docs/out-of-scope/` — rejected enhancement concepts (for deduplication)
+
+Local-first skills:
+
+- **to-prd-local** — Like `to-prd`, but writes a PRD to `docs/prd/` instead of creating a GitHub issue.
+- **to-issues-local** — Like `to-issues`, but writes tracer-bullet slices to `docs/issues/`.
+- **triage-issue-local** — Like `triage-issue`, but writes the triage + TDD plan to `docs/issues/`.
+- **request-refactor-plan-local** — Like `request-refactor-plan`, but writes the plan to `docs/refactors/`.
+- **qa-local** — Like `qa`, but writes issues to `docs/issues/` during the session.
+- **work-item-triage** — Local inbox/state machine for items in `docs/` (no `gh` required).
+
 ## Planning & Design
 
 These skills help you think through problems before writing code.
